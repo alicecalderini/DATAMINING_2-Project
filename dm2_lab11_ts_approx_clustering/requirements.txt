@@ -1,0 +1,14 @@
+pandas
+scikit-learn
+seaborn
+matplotlib
+sktime[all_extras]>=0.29.0
+pyts
+tslearn
+pyod
+neuralforecast
+aeon[all_extras]
+notebook
+tsfresh
+keras-self-attention
+alibi

@@ -1,0 +1,21 @@
+name: 2025_phd_ts_course
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - sktime-all-extras>=0.29.0
+  - pyts
+  - tslearn
+  - pyod
+  - neuralforecast
+  - pip
+  - pip:
+    - "aeon[all_extras]"
+    - notebook
+    - tsfresh
+    - keras-self-attention
+    - alibi
