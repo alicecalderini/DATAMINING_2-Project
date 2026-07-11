@@ -14,10 +14,10 @@ The goal is to develop predictive models capable of analyzing children's and ado
 
 The project uses two datasets:
 
-1. **Tabular Dataset** *(Modules 0, 1, 2)*
+1. **Tabular Dataset** 
    A modified version of the original CMI dataset, with some original missing values altered and synthetic samples added.
 
-2. **Time Series Dataset** *(Modules 0, 3)*
+2. **Time Series Dataset**
    Data collected from a wrist-worn sensor, containing acceleration measurements (x, y, z), the Euclidean Norm Minus One (ENMO) of the accelerometer signal, angle-Z, a non-wear binary flag, light, and battery voltage. The time series are associated with a subset of the original ids, each linked to the child's corresponding *sii*.
 
 ## Project Structure
@@ -41,19 +41,5 @@ The project is organized into **4 modules**:
 - **Motifs/Discords**: identification of motifs and/or anomalies in the time series, with visualization and discussion of their relationship with shapelets.
 - **Clustering**: application of at least 2 clustering algorithms on time series using an appropriate distance measure, with cluster analysis and visualization using at least 2 dimensionality reduction techniques.
 - **Time Series Classification**: definition of one or more classification tasks solved using KNN (with at least 2 distances: Euclidean/Manhattan and DTW), Shapelets, and at least one additional method (Rocket, MUSE, CNN, RNN, etc.).
-- **Sequential Pattern Mining** *(optional)*: discretization of the time series to perform sequential pattern mining and identify frequent patterns or trends.
 
-## Repository Structure
 
-\`\`\`
-DATAMINING_2/
-│
-├── 0. DATA UNDERSTANDING/
-├── 1. PREPROCESSING/
-├── 2. ADVANCED ML & XAI/
-├── 10. TIME SERIES/
-│   ├── ... time series analysis notebooks
-│   └── ... clustering files and results
-│
-└── README.md
-\`\`\`
